@@ -9,10 +9,14 @@ def is_odd(a_number):
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    pass
+    if a_number == 0
+        print(true)
+
+    else a_number == 1
+        print(false)
 
 
-def fix_it(moves=True, should_move=True):
+def fix_it(moves = True, should_move = True):
     """Decide what to do.
 
     Using the engineering flowchart for the rules, return the apropriate
