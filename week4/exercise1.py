@@ -30,7 +30,6 @@ def success_is_relative():
     # print(path, CWD)
     pass
 
-
 def get_some_details():
     """Parse some JSON.
 
@@ -49,8 +48,8 @@ def get_some_details():
     """
     json_data = open(LOCAL + "/lazyduck.json").read()
 
-    data = json.loads(json_data)
-    return {"lastName":       None,
+    data = json.loads(lazyduck.json)
+    return {"lastName":       .None,
             "password":       None,
             "postcodePlusID": None
             }
